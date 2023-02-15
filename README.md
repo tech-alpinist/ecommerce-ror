@@ -29,26 +29,19 @@ Before you get started, the following needs to be installed:
   
 ### Setting up the development environment
 
-1. Get the code. Clone this git repository:
-
-  ```bash
-  git clone git://github.com/omkz/waroong.git
-  cd waroong
-  ```
-
-2. Install the required gems by running the following command in the project root directory:
+1. Install the required gems by running the following command in the project root directory:
 
   ```bash
   bundle install
   ```
 
-3. Setup the database:
+2. Setup the database:
 
   ```bash
   bundle exec rails db:setup
   ```
 
-1. Start the development server:
+3. Start the development server:
 
   ```bash
   bin/dev
